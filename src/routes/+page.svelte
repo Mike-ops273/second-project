@@ -41,7 +41,7 @@
 </svelte:head>
 
 <section>
-	<h1>What To Do?</h1>
+	<h1>Custom Header 2?</h1>
 	<ol>
 		{#each data.list as item (item.id)}
 			<li data-id={item.id}>
